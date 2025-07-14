@@ -1,12 +1,30 @@
-# React + Vite
+# 🎲 Lottery Game React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, interactive 3-digit lottery game built with **React** and styled beautifully using custom CSS.
 
-Currently, two official plugins are available:
+Try your luck! If the **sum of the digits** of the randomly generated number equals **15**, you win! 🎉
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [Click here to play](https://aditya30-06.github.io/Lottery-Game-React/)
+
+---
+
+## 🧠 How It Works
+
+- Click **Start the Game** to generate a random **3-digit number** (100–999).
+- If the **sum of the digits** equals **15**, you win the lottery.
+- Otherwise, you can try again.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React 19
+- ⚡ Vite
+- 🎨 Custom CSS
+- 🚀 GitHub Pages (for deployment)
+
+
