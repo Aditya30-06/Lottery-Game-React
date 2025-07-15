@@ -1,4 +1,4 @@
-import LotteryGame from "./lotterygAME"
+import LotteryGame from "./lotteryGame"
 
 function App() {
   
