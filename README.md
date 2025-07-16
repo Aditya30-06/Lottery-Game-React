@@ -1,8 +1,6 @@
-# 🎲 Lottery Game React App
+# 🎰 React Lottery Game
 
-A simple, interactive 3-digit lottery game built with **React** and styled beautifully using custom CSS.
-
-Try your luck! If the **sum of the digits** of the randomly generated number equals **15**, you win! 🎉
+A fun and simple React game where you generate a ticket of random numbers and win if the sum matches the lucky number!
 
 ---
 
@@ -12,11 +10,13 @@ Try your luck! If the **sum of the digits** of the randomly generated number equ
 
 ---
 
-## 🧠 How It Works
+## 🧩 Features
 
-- Click **Start the Game** to generate a random **3-digit number** (100–999).
-- If the **sum of the digits** equals **15**, you win the lottery.
-- Otherwise, you can try again.
+- 🎲 Generates random lottery ticket numbers  
+- 🧠 Checks if the sum matches the winning number  
+- 🏆 Shows a winning message if you hit the lucky sum  
+- 🔁 Allows users to generate new tickets with a button  
+- 💅 Styled with clean and modern CSS  
 
 ---
 
@@ -28,3 +28,10 @@ Try your luck! If the **sum of the digits** of the randomly generated number equ
 - 🚀 GitHub Pages (for deployment)
 
 
+## 🧠 How It Works
+
+- Click **Start the Game** to generate a random **3-digit number** (100–999).
+- If the **sum of the digits** equals **15**, you win the lottery.
+- Otherwise, you can try again.
+
+---

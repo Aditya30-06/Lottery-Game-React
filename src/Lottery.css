@@ -1,69 +1,70 @@
-/* Lottery.css */
+/* lottery.css */
 
 body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.lottery-container {
-  max-width: 500px;
-  margin: 80px auto;
-  padding: 40px;
-  background-color: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f9fa;
+  color: #343a40;
   text-align: center;
+  margin: 0;
+  padding: 2rem;
 }
 
-.lottery-title {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 30px;
+h1, h2, h3 {
+  margin: 1rem 0;
 }
 
-.lottery-button {
-  padding: 12px 30px;
-  font-size: 16px;
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-box {
+  font-size: 1.5rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #007bff, #00c6ff);
+  margin: 1rem 0;
+  color: #007bff;
+}
+
+.ticket-box b {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.ticket-box span {
+  background: #e9ecef;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  min-width: 30px;
+  display: inline-block;
+}
+
+button {
+  background-color: #28a745;
   color: white;
   border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-}
-
-.lottery-button:hover {
-  background: linear-gradient(135deg, #0056b3, #009edb);
-  transform: scale(1.05);
-}
-
-.lottery-result {
-  margin-top: 30px;
-}
-
-.lottery-message {
-  font-size: 18px;
-  margin-bottom: 12px;
-  padding: 12px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
   border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
 }
 
-.lottery-message.win {
-  background-color: #d4edda;
-  color: #155724;
-  border: 1px solid #c3e6cb;
+button:hover {
+  background-color: #218838;
 }
 
-.lottery-message.lose {
-  background-color: #f8d7da;
-  color: #721c24;
-  border: 1px solid #f5c6cb;
+.winning-msg {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #28a745;
+  font-weight: bold;
 }
 
-.lottery-details {
-  font-size: 16px;
-  color: #444;
+.try-again {
+  color: #dc3545;
 }
